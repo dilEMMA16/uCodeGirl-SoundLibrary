@@ -44,7 +44,7 @@ section {
 /* This is the small line of pink at the top of each page */
 #topcolor {
   height: 2vh;
-  background-color:#f8d9e4;
+  background-color:#fff;
   width: 100%;
 }
 
@@ -55,4 +55,25 @@ iframe {
 #topsection, #topsection h1, #topsection p {
   background-color:  #49c8c3;
   color: white !important;
+}
+
+#parallax {
+  /* Gradient */
+  background-color: #ffffff;
+  background-image: linear-gradient(180deg, #ffffff 12%, #49c8c3 60%);
+  background-color: #49c8c3;
+  background-image: linear-gradient(180deg, #49c8c3 6%, #ffffff 30%, #49c8c3 100%);
+  background-color: #49c8c3;
+  background-image: linear-gradient(180deg, #49c8c3 6%, #ffffff 30%, #145698 100%);
+
+
+  /* Set a specific height */
+  height: 600px;
+  width: auto;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
