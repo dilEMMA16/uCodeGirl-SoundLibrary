@@ -41,12 +41,6 @@ section {
 }
 
 
-/* This is the small line of pink at the top of each page */
-#topcolor {
-  height: 2vh;
-  background-color:#fff;
-  width: 100%;
-}
 
 iframe {
   text-align: center;
